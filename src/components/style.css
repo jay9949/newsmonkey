@@ -1,0 +1,26 @@
+.card {
+  background-color: #838383 !important;
+  border-radius: 10px 10px 10px 10px !important;
+  opacity: 0.8;
+}
+.card-img-top {
+  border-radius: 10px 8px 0 0 !important;
+}
+.card:hover {
+  opacity: 1;
+  box-shadow: 5px 5px 20px 5px black !important;
+  cursor: pointer;
+}
+.text-muted {
+  color: antiquewhite !important;
+  opacity: 0.8;
+}
+.btn-sm {
+  background-color: rgb(0, 0, 171) !important;
+  border: none;
+  border-radius: 7px;
+}
+.btn-sm:hover {
+  background-color: blue !important;
+  border: none;
+}
