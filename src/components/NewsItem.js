@@ -38,7 +38,7 @@ const NewsItem = (props) => {
             rel="noreferrer"
             href={newsUrl}
             target="_blank"
-            style={{ marginLeft: "17rem", marginTop: "1rem" }}
+            style={{ marginLeft: "13rem", marginTop: "1rem" }}
             className="btn btn-sm btn-primary "
           >
             Read More &rarr;
