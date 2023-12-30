@@ -5,7 +5,7 @@ const NewsItem = (props) => {
   let { title, description, imageUrl, newsUrl, author, date, source } = props;
   return (
     <div className="my-3">
-      <div className="card shadow mb-5 rounded border-primary">
+      <div className="card shadow mb-5 rounded">
         <div
           style={{
             display: "flex",
@@ -38,7 +38,7 @@ const NewsItem = (props) => {
             rel="noreferrer"
             href={newsUrl}
             target="_blank"
-            style={{ marginLeft: "13rem", marginTop: "1rem" }}
+            style={{ marginLeft: "12.7rem", marginTop: "1rem" }}
             className="btn btn-sm btn-primary "
           >
             Read More &rarr;
